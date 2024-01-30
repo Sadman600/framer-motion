@@ -1,0 +1,15 @@
+.animationContainer {
+  width: 150px;
+  height: 150px;
+  background-color: seagreen;
+  animation-name: myAnimation;
+  animation-duration: 2s;
+}
+@keyframes myAnimation {
+  from {
+    background-color: seagreen;
+  }
+  to {
+    background-color: tomato;
+  }
+}
